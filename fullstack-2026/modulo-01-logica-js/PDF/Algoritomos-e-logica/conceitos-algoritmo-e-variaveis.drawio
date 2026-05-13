@@ -1,0 +1,245 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Página-1" id="K-lamsxsOoelovsOymIu">
+    <mxGraphModel dx="2037" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-22" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Algoritmo" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-25" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sequencia finita de passos para resolver um problema ou executar uma tarefa" vertex="1">
+          <mxGeometry height="40" width="320" x="202" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-28" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="" vertex="1">
+          <mxGeometry height="40" width="199" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-29" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="569" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-31" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="639.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="699" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="40" width="40" x="569" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2" vertex="1">
+          <mxGeometry height="40" width="40" x="639.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3" vertex="1">
+          <mxGeometry height="40" width="40" x="699" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-37" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-38" parent="1" style="whiteSpace=wrap;html=1;" value="Variaveis" vertex="1">
+          <mxGeometry height="40" width="110" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-39" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-40" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;São espaços resrevados na memoria de um dispositivo para armazenar valores mutáveis,&lt;/div&gt;&lt;div&gt;&amp;nbsp;* estes valores podem ser alterados o tempo todo.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="308" x="202" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-42" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-43" parent="1" style="whiteSpace=wrap;html=1;" value="Variaveis em JS" vertex="1">
+          <mxGeometry height="40" width="111" x="560" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-104" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Vj_qxU0U_sso9vPEDegy-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-105" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Vj_qxU0U_sso9vPEDegy-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-47" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;var, let e const." vertex="1">
+          <mxGeometry height="40" width="109.25" x="720" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-48" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-49" parent="1" style="whiteSpace=wrap;html=1;" value="var (legado)" vertex="1">
+          <mxGeometry height="60" width="120" x="714.62" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-50" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-51" parent="1" style="whiteSpace=wrap;html=1;" value="declacração" vertex="1">
+          <mxGeometry height="40" width="120" x="714.62" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-52" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-53" parent="1" style="whiteSpace=wrap;html=1;" value="let" vertex="1">
+          <mxGeometry height="40" width="110" x="1084.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-54" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-55" parent="1" style="whiteSpace=wrap;html=1;" value="const" vertex="1">
+          <mxGeometry height="40" width="100" x="1437" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-103" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Vj_qxU0U_sso9vPEDegy-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-56" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;lt;var&amp;gt; &amp;lt;identificador&amp;gt; = &amp;lt;valor da variavel&amp;gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="654.62" y="404.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-57" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-61" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-58" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="242" x="653.62" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Caracteristicas do VAR" vertex="1">
+          <mxGeometry height="30" width="120" x="714.62" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-60" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Escopo de função e global (não respeita blocos {})" vertex="1">
+          <mxGeometry height="40" width="182" x="682.62" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-62" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pode ser re-declarada" vertex="1">
+          <mxGeometry height="40" width="182" x="682.62" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-64" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pode ser re-atribuída" vertex="1">
+          <mxGeometry height="40" width="182" x="682.62" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sofre hoisting (é &quot;movida&quot; para o topo)" vertex="1">
+          <mxGeometry height="40" width="182" x="682.62" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-67" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Recomendação usar let" vertex="1">
+          <mxGeometry height="40" width="160" x="1059.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-69" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mais moderno e seguro" vertex="1">
+          <mxGeometry height="35.5" width="160" x="1059.5" y="404.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-71" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="foi introduzido no ES6 (2015) para corrigir problemas do var" vertex="1">
+          <mxGeometry height="40" width="180" x="1049.5" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-73" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="foma de declaração com let" vertex="1">
+          <mxGeometry height="40" width="180" x="1049.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-75" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="  &amp;lt;let&amp;gt; &amp;lt;identificador&amp;gt; = &amp;lt;valor da variavel&amp;gt; " vertex="1">
+          <mxGeometry height="40" width="239" x="1020" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-77" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Carcateristicas do LET" vertex="1">
+          <mxGeometry height="40" width="145" x="1067" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-79" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Escopo de bloco ({})" vertex="1">
+          <mxGeometry height="40" width="140" x="1070" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-81" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-83" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pode ser re-atribuída" vertex="1">
+          <mxGeometry height="40" width="140" x="1070" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NÃO pode ser re-declarada no mesmo escopo" vertex="1">
+          <mxGeometry height="40" width="150" x="1064.5" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-84" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Constante em JS" vertex="1">
+          <mxGeometry height="40" width="120" x="1427" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-86" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-89" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="const também veio no ES6 e é usado quando o valor não deve mudar" vertex="1">
+          <mxGeometry height="45" width="148" x="1413" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-88" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1488.3000000000002" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="forma de declaração de constatnte JS" vertex="1">
+          <mxGeometry height="40" width="149" x="1413" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-90" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-93" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1488.3000000000002" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;lt;const&amp;gt; &amp;lt;IDENTIFICADOR&amp;gt; = &amp;lt;valor da constante&amp;gt;" vertex="1">
+          <mxGeometry height="40" width="287.5" x="1350" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-92" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-95" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Caracteristica de const" vertex="1">
+          <mxGeometry height="40" width="149" x="1413.75" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-94" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-97" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Escopo de bloco" vertex="1">
+          <mxGeometry height="40" width="120" x="1428.25" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-96" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Não pode ser re-atribuída" vertex="1">
+          <mxGeometry height="30" width="125" x="1425.75" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-98" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vj_qxU0U_sso9vPEDegy-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Não pode ser re-declarada" vertex="1">
+          <mxGeometry height="40" width="162.5" x="1407" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Precisa ser inicializada na declaração" vertex="1">
+          <mxGeometry height="40" width="165" x="1405.75" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj_qxU0U_sso9vPEDegy-106" edge="1" parent="1" source="Vj_qxU0U_sso9vPEDegy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="Vj_qxU0U_sso9vPEDegy-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
