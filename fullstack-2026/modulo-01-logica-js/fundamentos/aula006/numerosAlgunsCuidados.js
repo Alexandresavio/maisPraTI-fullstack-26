@@ -1,6 +1,8 @@
 console.log(7/0); // No JavaScript, dividir um número por zero não gera erro. O resultado é Infinity (infinito).
 
 console.log("10"/2); //O JavaScript faz uma conversão automática de tipos (coerção).
+console.log("10"+2);//String ganha!
+
 
 console.log("Show"*2);//O JavaScript tenta converter "Show" em número, mas isso não é possível.
 
