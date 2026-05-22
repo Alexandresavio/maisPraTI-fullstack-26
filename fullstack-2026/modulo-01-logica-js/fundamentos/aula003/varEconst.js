@@ -1,66 +1,129 @@
 /**
- * Conceito de variáveis: São espaços resrevados na memoria de um dispositivo para armazenar valores mutáveis,
- * estes valores podem ser alterados o tempo todo. 
- * 
- * forma de declarar uma variavel com var em JS
- * <var> <identificador> = <valor da variavel>
+ * CONCEITO DE VARIÁVEIS
+ *
+ * Variáveis são espaços reservados na memória
+ * para armazenar valores que podem ser alterados.
+ *
+ * Estrutura:
+ * <palavra reservada> <identificador> = <valor>
  */
 
-var nome = "Sávio"; // declarção da variavel nome e atribuição de um valor.
-var nome = "João"; // permitido
-console.log(nome); // João
 /**
- * Caracteristicas do VAR: 
- * Escopo de função e global(não respeita blocos {})
- * Pode ser re-declarada
- * Pode ser re-atribuída
- * Sofre hoisting (é "movida" para o topo)
+ * DECLARAÇÃO COM VAR
+ *
+ * Estrutura:
+ * var nomeDaVariavel = valor
  */
+
+var nome = "Sávio" // Declaração da variável + atribuição de valor
+
+// O var permite redeclaração
+var nome = "João"
+
+console.log(nome) // João
+
+/**
+ * CARACTERÍSTICAS DO VAR
+ *
+ * - Escopo global ou de função
+ * - NÃO respeita escopo de bloco {}
+ * - Permite redeclaração
+ * - Permite reatribuição
+ * - Sofre hoisting
+ */
+
 if (true) {
-  var idade = 25;
+
+  // A variável continua acessível fora do bloco
+  var idade = 25
+
 }
-console.log(idade); // 25 (mesmo fora do bloco vai retornar o valor da variavel!)
 
-/** Recomendação usar let:
- *   mais moderno e seguro
- *   foi introduzido no ES6 (2015) para corrigir problemas do var.
- *   foma de declaração com let
- *   <let> <identificador> = <valor da variavel>
- */
+// Mesmo fora do bloco, o valor continua acessível
+console.log(idade) // 25
 
-let nome2 = "Sávio"; // declarei e atribui um valor
-nome2 = "Paulo"; // reatribuição de valor
-console.log(nome2); // Paulo
-/**Carcateristicas do LET:
- * Escopo de bloco ({})
- * Pode ser re-atribuída
- * NÃO pode ser re-declarada no mesmo escopo
- */
-//Erro ao redeclarar
-let nome3 = "Sávio";
-//let nome3 = "Maria"; // ERRO não permite redeclarar a variavel dentro do mesmo escopo
-console.log(nome3);
+
+
 /**
- * Escopo de bloco:
- * Aqui funciona como esperado — a variável fica só dentro do bloco.
+ * LET
+ *
+ * Mais moderno e seguro.
+ *
+ * Foi introduzido no ES6 (2015)
+ * para corrigir problemas do var.
+ *
+ * Estrutura:
+ * let nomeDaVariavel = valor
  */
+
+let nome2 = "Sávio"
+
+// Reatribuição permitida
+nome2 = "Paulo"
+
+console.log(nome2) // Paulo
+
+/**
+ * CARACTERÍSTICAS DO LET
+ *
+ * - Escopo de bloco {}
+ * - Permite reatribuição
+ * - NÃO permite redeclaração no mesmo escopo
+ */
+
+// Declaração válida
+let nome3 = "Sávio"
+
+// ERRO:
+// Não é permitido redeclarar no mesmo escopo
+// let nome3 = "Maria"
+
+console.log(nome3)
+
+/**
+ * ESCOPO DE BLOCO
+ *
+ * A variável existe apenas dentro do bloco.
+ */
+
 if (true) {
-  let idade2 = 25;
-}
-//console.log(idade2); // ERRO
 
-/** Constante em JS
- * const também veio no ES6 e é usado quando o valor não deve mudar
- * forma de declaração de constatnte JS
- * <const> <IDENTIFICADOR> = <valor da constante>
- */
-const nome4 = "Alexandre";
-console.log(nome4); // Alexandre
+  let idade2 = 25
+
+}
+
+// ERRO:
+// idade2 não existe fora do bloco
+// console.log(idade2)
+
 /**
- * Escopo de bloco
- * Não pode ser re-atribuída
- * Não pode ser re-declarada
- * Precisa ser inicializada na declaração
+ * CONST
+ *
+ * Também foi introduzido no ES6.
+ *
+ * Usado para valores que não devem ser reatribuídos.
+ *
+ * Estrutura:
+ * const NOME = valor
  */
-//const nome4 = "Souza";
-//console.log(nome4); // ERRO!
+
+const nome4 = "Alexandre"
+
+console.log(nome4) // Alexandre
+
+/**
+ * CARACTERÍSTICAS DO CONST
+ *
+ * - Escopo de bloco {}
+ * - NÃO permite reatribuição
+ * - NÃO permite redeclaração
+ * - Deve ser inicializada na declaração
+ */
+
+// ERRO:
+// Não é permitido redeclarar
+// const nome4 = "Souza"
+
+// ERRO:
+// Não é permitido reatribuir
+// nome4 = "Carlos"
