@@ -32,16 +32,33 @@ console.log(nome) // João
  * - Sofre hoisting
  */
 
+
+//escopo global
+{
+  {
+    {
+      {
+        var sera = 'Será?'
+      }
+    }
+  }
+}
+console.log(sera);
+
 if (true) {
 
   // A variável continua acessível fora do bloco
   var idade = 25
 
 }
-
 // Mesmo fora do bloco, o valor continua acessível
 console.log(idade) // 25
 
+//Var com escopo de função, aqui ela respeita o bloco pois tem escopo de funcao
+function test(){
+  var local = 123;
+}
+console.log(local);// retorna ReferenceError: local is not define
 
 
 /**
