@@ -54,11 +54,12 @@ if (true) {
 // Mesmo fora do bloco, o valor continua acessível
 console.log(idade) // 25
 
+
 //Var com escopo de função, aqui ela respeita o bloco pois tem escopo de funcao
 function test(){
   var local = 123;
 }
-console.log(local);// retorna ReferenceError: local is not define
+//console.log(local); retorna ReferenceError: local is not define
 
 
 /**
@@ -72,46 +73,36 @@ console.log(local);// retorna ReferenceError: local is not define
  * Estrutura:
  * let nomeDaVariavel = valor
  */
-
 let nome2 = "Sávio"
 
 // Reatribuição permitida
 nome2 = "Paulo"
 
 console.log(nome2) // Paulo
-
 /**
  * CARACTERÍSTICAS DO LET
  *
- * - Escopo de bloco {}
+ * - Escopo de bloco {} -> A variável existe apenas dentro do bloco.
  * - Permite reatribuição
  * - NÃO permite redeclaração no mesmo escopo
  */
-
 // Declaração válida
 let nome3 = "Sávio"
 
-// ERRO:
-// Não é permitido redeclarar no mesmo escopo
-// let nome3 = "Maria"
+
+// let nome3 = "Maria" // Se tentar redeclarar retrona ERRO: Não é permitido redeclarar no mesmo escopo
 
 console.log(nome3)
-
-/**
- * ESCOPO DE BLOCO
- *
- * A variável existe apenas dentro do bloco.
- */
 
 if (true) {
 
   let idade2 = 25
+  //console.log(idade2) -> aqui a variavel esta acessivel
 
 }
-
-// ERRO:
-// idade2 não existe fora do bloco
+// ERRO: idade2 não existe fora do bloco
 // console.log(idade2)
+
 
 /**
  * CONST
@@ -123,7 +114,6 @@ if (true) {
  * Estrutura:
  * const NOME = valor
  */
-
 const nome4 = "Alexandre"
 
 console.log(nome4) // Alexandre
@@ -137,10 +127,8 @@ console.log(nome4) // Alexandre
  * - Deve ser inicializada na declaração
  */
 
-// ERRO:
-// Não é permitido redeclarar
+// ERRO: Não é permitido redeclarar
 // const nome4 = "Souza"
 
-// ERRO:
-// Não é permitido reatribuir
+// ERRO: Não é permitido reatribuir
 // nome4 = "Carlos"
