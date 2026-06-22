@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre formularios html</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <h2>Login</h2>
+    <form action="cadastro.php" method="post">
+        Login:<input type="text" name="login"><br>
+        Senha:<input type="password" name="password"><br>
+        <input type="submit" value="Logar">
+    </form>
+    <hr>
+    <h2>Cadastre-se</h2>
+    <form action="cadastro.php" method="post">
+        Login: <input type="text" name="login"><br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino
+        <br><br>
+        Interesses:<br>
+        <input type="checkbox" name="Interesses" value="futebol">futebol
+        <input type="checkbox" name="Interesses" value="Cursos">Cursos
+        <input type="checkbox" name="Interesses" value="Moda">Moda
+        <br><br>
+        Estado<br>
+        <select name="estado">
+            <option value="rs">RS</option>
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="SC">SC</option>
+        </select>
+        <br><br>
+        Observações:<br>
+        <textarea name="obs"></textarea>
+        <br><br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>

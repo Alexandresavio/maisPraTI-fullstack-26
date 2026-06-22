@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre tabelas html</title>
+</head>
+    <style>
+        caption{
+            background-color: rgb(119, 107, 107);
+            color: white;
+        }
+         table{
+              width: 50%;
+              text-align: justify;
+        }
+        th{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        tfoot{
+            background-color: rgb(53, 170, 179);
+        }
+    </style>
+<body>
+    <h1>Tabela em HTML 5</h1>
+    <table>
+        <caption>Lista de convidados</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de pessoas: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

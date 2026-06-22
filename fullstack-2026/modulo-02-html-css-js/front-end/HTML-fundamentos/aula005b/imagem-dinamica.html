@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando ccom imagens</title>
+    <style>
+        body{
+            background-color: #0D1730;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Imagens que se adaptam</h1>
+    <h2>Tag picture</h2>
+    <p>A tag picture no HTML5 é usada para oferecer diferentes versões de uma mesma imagem,</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/logo-ferrari-200.png">
+        <source media="(max-width: 1200px)" srcset="imagens/logo-ferrari-400.png">
+        <source media="(min-width: 1201px)" srcset="imagens/logo-ferrari.png">
+
+        <img src="imagens/logo-ferrari.png" alt="Logo Ferrari" title="logo ferrari">
+    </picture>
+    <br>
+    <a href="../aula006/index.html" target="_self">aula006</a>
+    <img src="imagens/ChatGPT Image 19 de jun. de 2026, 20_42_59.png" width="250px">
+
+
+</html>

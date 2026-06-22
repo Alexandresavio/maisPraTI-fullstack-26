@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES - Página principal</title>
+</head>
+
+<body background="arquivos/fundo2.png">
+
+    <table border="0" width="900px" align="center">
+        <tr>
+            <td height="89">
+                <img src="arquivos/logo.png">
+            </td>
+            <td align="right">
+                <a href="index.html" target="_self">Home | </a>
+                <a href="quem-somos.html" target="_self">Quem-somos | </a>
+                <a href="contato.html" target="_self">Contato </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h1>Entre em contato</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form action="contato.php" method="post">
+                    <label for="mail">
+                        Seu e-mail: <br>
+                        <input type="email" id="mail" name="email">
+                    </label>
+                    <br>
+                    <label for="assunto">
+                        Assunto: <br>
+                        <input type="text" name="assunto" id="assunto">
+                    </label>
+                    <br>
+                    Descrição: <br>
+                    <textarea name="descricao"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados.</h4>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

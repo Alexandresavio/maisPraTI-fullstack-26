@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário elaborado</title>
+</head>
+<body>
+    <h1>Fomulário</h1>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade">
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="rs">RS</option>
+                <option value="sc">SC</option>
+                <option value="pr">PR</option>
+                <option value="sp">SP</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            Natureza do cargo:   
+                <label for="gerencia">
+                    <input type="radio" name="cargo" id="gerencia" value="gerencia">Gerência
+                </label>
+                <label for="financeiro">
+                    <input type="radio" name="cargo" id="financeiro" value="finaceiro">Financeiro
+                </label>
+                <label for="recepcao">
+                    <input type="radio" name="cargo" id="recepcao" value="recepcao">Recepção
+                </label>
+                <label for="juridico">
+                    <input type="radio" name="cargo" id="juridico" value="juridico">Jurídico
+                </label>
+                <br><br>
+                Área de interesse:<br>
+                <label for="comp">
+                    <input type="checkbox" name="interesse" value="computacao" id="comp">Computação
+                </label>
+                <label for="bio">
+                    <input type="checkbox" name="biologia" value="biologia" id="bio">Biologia
+                </label>
+                <label for="amb">
+                    <input type="checkbox" name="meio-ambiente" value="meio-ambiente" id="amb">Meio ambiente
+                </label>
+                <label for="eng">
+                    <input type="checkbox" name="engenharia" value="engenharia" id="eng">Engenharia
+                </label>
+                <br><br>
+                Mini-curriculo:<br>
+                <textarea></textarea>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar formulário">
+    </form>
+</body>
+</html> </label></label>

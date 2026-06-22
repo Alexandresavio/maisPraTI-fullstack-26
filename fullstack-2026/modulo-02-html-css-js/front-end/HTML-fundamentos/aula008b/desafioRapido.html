@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Rápido sobre formulários</title>
+</head>
+<body>
+    <h1>Exercício de formulários</h1>
+    <form>
+        <fieldset>
+            <legend>
+                Dados pessoais
+            </legend>
+            <label for="nome">
+                Nome:<br>
+                <input type="text" name="nome" id="nome">
+            </label>
+            <br>
+            <label for="email">
+                Email:<br>
+                <input type="email" name="email" id="email">
+            </label>
+            <br>
+            <label for="receber-email">
+                <input type="checkbox" name="receberEmail" value="Quero receber e-mail" id="receber-email">Quero receber e-mail
+            </label>
+            <br><br>
+            <label for="senha">
+                Senha:<br>
+                <input type="password" name="senha" id="senha">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Informações pessoais
+            </legend>
+            <label for="pf">
+                <input type="radio" name="info" value="pessoa-fisica" id="pf">Pessoa Física
+            </label>
+            <label for="pj">
+                <input type="radio" name="info" value="pessoa-juridica" id="pj">Pessoa Jurídica
+            </label>
+        </fieldset>
+        <button>
+            Cadastrar
+        </button>
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

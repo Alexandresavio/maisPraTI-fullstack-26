@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 03 - Tabelas HTML</title>
+     <style>
+         table{
+              width: 50%;
+              text-align: justify;
+        }
+        caption{
+            background-color: black;
+            color: white;
+        }
+        th{
+            text-align: center;
+            background-color: orangered;
+            color: white;
+        }
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        tfoot{
+            background-color: gray;
+            color: white;
+            text-align: justify;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela - exercício</h1>
+    <table>
+        <caption>Lista de países mais populosos</caption>
+        <thead>
+            <th>Posição</th>
+            <th>País</th>
+            <th>População aproximada (milhões)</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <img src="b1.jpg" alt="china"> China
+                </td>
+                <td>1.440</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <img src="b2.jpg" alt="India"> 
+                    Índia
+                </td>
+                <td>1.380</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <img src="b3.jpg" alt="eua">
+                    EUA
+                </td>
+                <td>331</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <img src="b4.jpg" alt="indonesia">
+                    Indonésia
+                </td>
+                <td>273</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <img src="b5.jpg" alt="paquistao">
+                    Paquistão
+                </td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>
+                    <img src="b6.jpg" alt="brasil">
+                    Brasil
+                </td>
+                <td>212</td>
+            </tr>            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Fonte: https://www.google.com/search?q=ficticio.com.br</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

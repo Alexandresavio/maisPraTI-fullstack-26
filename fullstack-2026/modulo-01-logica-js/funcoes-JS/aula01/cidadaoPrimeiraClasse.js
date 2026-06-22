@@ -35,3 +35,4 @@ const funcao = function(){
 }
 
 funcao();
+
