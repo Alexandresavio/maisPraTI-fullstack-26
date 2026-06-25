@@ -17,11 +17,9 @@
  *
  * Esta função apenas imprime o resultado no console.
  */
-
 function imprimirSoma(a, b) {
     console.log(a + b)
 }
-
 // Soma normal
 imprimirSoma(2, 3)
 
