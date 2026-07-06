@@ -1,4 +1,4 @@
-   #topo-pagina-inicial {
+   #topo{
        background-color: red;
    }
 
@@ -7,9 +7,4 @@
    }
    .p1{
     background-color: orange;
-   }
-
-   /* Pagina celucalres*/
-   #topo-pagina-cel{
-    background-color: goldenrod;
    }
