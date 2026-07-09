@@ -1,0 +1,8 @@
+body{
+    background-image: url(imagens/fundo-site.png);
+}
+.conteudo{
+    background: #d9d7b6 url(imagens/fundo-h1.png) repeat-x left top;
+    padding: 1em;
+
+}
