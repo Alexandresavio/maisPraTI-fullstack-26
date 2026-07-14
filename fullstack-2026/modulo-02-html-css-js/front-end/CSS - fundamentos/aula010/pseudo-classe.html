@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-cleasse e pseudo-elemento</title>
+    <style>
+      
+       /* Pseudo-classe: É uma palavra-chave adicionada a seletores, que especifica um estado especial do elemento selecionado. Por exemplo, :hover que pode ser usado para alterar a cor de um elemento quando o usuário passa o cursor sobre ele
+          */
+      
+        /*Links*/
+        a{
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        /*Links hover, passo o cursor sobre o link*/
+         a:hover{
+            background-color: green;
+            color: white;
+        }
+
+        /*Links não visitados*/
+        a:link{
+            color: grey;
+        }
+
+        /*Links visitados*/
+        a:visited{
+            background-color: aqua;
+            color: black;
+        }
+
+        /*Links ativos*/
+        a:active{
+            background-color: brown;
+        }
+
+        /*Fomrulários*/
+        input:checked{
+            margin-left: 20px;
+        }
+        input:focus{
+            background-color: rgb(199, 191, 206);
+            color: white;
+        }
+        input:required{
+            background-color: chartreuse;
+            color: rgb(100, 89, 89);
+        }
+
+        /*Pseudo-elementos: É uma palavra-chave adicionada a seletores, que permite que você estilize uma parte específica do elemento selecionado. Por exemplo ::first-line que aplica o estilo apenas na primeira linha de um parágrafo
+        */
+
+       
+     
+    </style>
+</head>
+<body>
+    <div>
+        conteudo da div
+    </div>
+    <h2>Conteudo do H2</h2>
+    <a href="https://www.google.com/">Google</a> |
+    <a href="https://www.facebook.com/">Facebook</a> |
+    <a href="https://instagram.com/">Instagram</a> |
+
+    <h2>Formulários</h2>
+    <input type="checkbox">Aceito <br>
+    <input type="radio" name="opcao">Sim <br>
+    <input type="radio" name="opcao">Não <br>
+    <input type="text" required placeholder="Digite seu nome">
+    <input type="text" placeholder="Digite seu telefone">
+</body>
+</html>
