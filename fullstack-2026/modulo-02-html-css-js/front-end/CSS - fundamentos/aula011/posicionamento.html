@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+
+        #container {
+            width: 700px;
+            background-color: white;
+            margin: 10px auto;
+            padding: 8px;
+        }
+
+        .borda {
+            border: 1px solid red;
+        }
+
+        .estatico {
+            /* Fluxo nornal do elemento*/
+            position: static;
+        }
+
+        .relativo {
+            /* position: relative; */
+            /* margin-top: 80px; */
+            /* top: 30px;
+            left: 30px; */
+        }
+        .absoluto{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="borda ">Posição absoluta</h1>
+        <p class="borda absoluto" style="background-color: rgb(252, 193, 0);">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quaerat perspiciatis neque voluptas
+            quibusdam nesciunt quod.</p>
+        <hr>
+        <h1 class="borda ">Posição relativa</h1>
+        <p class="borda relativo" style="background-color: lawngreen;">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quaerat perspiciatis neque voluptas
+            quibusdam nesciunt quod.</p>
+        <p class="borda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis neque voluptas
+            quibusdam nesciunt quod.</p>
+
+        <h1 class="borda estatico">Fluxo normal</h1>
+        <p class="borda estatico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis neque
+            voluptas quibusdam nesciunt quod.</p>
+    </div>
+</body>
+
+</html>
